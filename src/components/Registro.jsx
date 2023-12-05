@@ -4,7 +4,7 @@ const Registro = () => {
 
     return(
         <div>
-            <form action="submit" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
                 <label>Escribe tu nombre: </label>
                 <input type="email" name="email" placeholder="Escribe tu correo aqui" />
                 <br />
